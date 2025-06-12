@@ -8,10 +8,10 @@ WORKDIR /app
 COPY . .
 
 # 安装依赖（根据项目类型调整命令）
-RUN pip install --no-cache-dir -r requirements.txt
+RUN ls -l
 
 # 暴露服务端口（按需修改）
-EXPOSE 8000
+#EXPOSE 8000
 
 # 启动应用（替换为项目的启动命令）
-CMD ["python", "app.py"]
+#CMD ["python", "app.py"]
