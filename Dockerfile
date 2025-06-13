@@ -1,5 +1,5 @@
 # 使用官方轻量级Python镜像（可替换为node:20-alpine等）
-FROM python:3.11-slim
+FROM 2256906828/zenoh_autoware:0.3.0
 
 # 设置容器内工作目录（可自定义）
 WORKDIR /app
